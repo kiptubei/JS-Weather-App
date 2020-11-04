@@ -19,6 +19,8 @@ Search for a specific location and toggle displaying the data in Fahrenheit or C
 - Switch to the `features` branch.
 - Install all dependencies by running `npm install`.
 - Launch the project locally by running `npm run dev`.
+- Enter the name of the town whose weather you want and search
+- Click on Imperial or Metric to toggle between the units
 
 ### Usage
 
