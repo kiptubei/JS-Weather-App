@@ -1,0 +1,135 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  height: 100vh;
+  background-size: cover;
+  background-color: blanchedalmond;
+  background-blend-mode: multiply;
+}
+
+#content {
+  width: 90%;
+  height: 60vh;
+  max-width: 800px;
+  margin: 0 auto;
+  color: black;
+  background-color: rgba(255, 235, 205, 0.8);
+  background-blend-mode: difference;
+  padding: 2rem;
+}
+
+/*
+    Form styles
+*/
+
+#search-form {
+  width: 90%;
+  margin: 2rem auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+#location-input {
+  margin-left: 0.75em;
+  margin-right: 0.75em;
+}
+
+#submit {
+  border: none;
+  background: transparent;
+}
+
+#change-units {
+  font-size: 0.8em;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+/*
+    Debug info
+*/
+
+.debug-info {
+  display: none;
+}
+
+/*
+    Data: Location
+*/
+
+.location {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+
+  .loc-name {
+    font-size: 1.75em;
+  }
+
+  .report-time {
+    font-size: 1.25em;
+    font-weight: 400;
+  }
+}
+
+/*
+    Data: Main
+*/
+
+.main {
+  width: 60%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .current-temp {
+    font-size: 2.5em;
+    font-weight: 600;
+  }
+
+  .weather-icon {
+    filter: opacity(70%);
+    padding: 5px;
+    background-color: ivory;
+
+    img {
+      filter: contrast(90%);
+    }
+
+    figcaption {
+      font-size: 0.8em;
+      padding: 3px;
+      text-align: center;
+    }
+  }
+
+  .feels-like,
+  .temp-range {
+    font-size: 1.5em;
+    font-weight: 400;
+  }
+}
+
+/*
+    Data: Misc
+*/
+
+.misc-data {
+  width: 60%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  font-size: 1.25em;
+
+  .label {
+    justify-self: end;
+  }
+
+  .val {
+    justify-self: start;
+  }
+}
