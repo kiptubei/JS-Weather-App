@@ -1,4 +1,5 @@
-
+import search from './action';
+import { showLoading } from './display';
 
 const searchForm = document.createElement('form');
 searchForm.id = 'search-form';
