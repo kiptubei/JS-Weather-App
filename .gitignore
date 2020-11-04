@@ -30,4 +30,4 @@
 # Ignore application configuration
 /config/application.yml
 
-unsplash_keys.*
+.unsplash_keys.*
