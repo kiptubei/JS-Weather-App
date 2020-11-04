@@ -1,0 +1,43 @@
+{
+  "name": "JS-Weather-App",
+  "version": "1.0.0",
+  "description": "Weather forecast site using the weather API. Search for a specific location and toggle displaying the data in Fahrenheit or Celsius.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiptubei/JS-Weather-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiptubei/JS-Weather-App/issues"
+  },
+  "homepage": "https://github.com/kiptubei/JS-Weather-App#readme",
+  "devDependencies": {
+    "bootstrap": "^4.5.3",
+    "css-loader": "^5.0.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^4.5.0",
+    "jquery": "^3.5.1",
+    "mini-css-extract-plugin": "^1.2.1",
+    "mustache": "^4.0.1",
+    "mustache-loader": "^1.4.3",
+    "node-sass": "^4.14.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "popper": "^1.0.1",
+    "sass-loader": "^10.0.4",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.3.2",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^3.0.0"
+  }
+}
