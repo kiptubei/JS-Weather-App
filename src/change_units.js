@@ -61,13 +61,13 @@ const mphToMetps = () => {
 const toggle = () => {
   const toggleBtn = document.getElementById('change-units');
   if (toggleBtn.dataset.metric === 'true') {
-    toggleBtn.textContent = 'Metric';
+    toggleBtn.textContent = 'Metric Units';
     toggleBtn.setAttribute('data-metric', false);
     celsiusToFarenheit();
     metersToMiles();
     metpsToMilph();
   } else if (toggleBtn.dataset.metric === 'false') {
-    toggleBtn.textContent = 'Imperial';
+    toggleBtn.textContent = 'Imperial Units';
     toggleBtn.setAttribute('data-metric', true);
     farenheitToCelsius();
     milesToMeters();

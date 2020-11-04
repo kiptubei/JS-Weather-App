@@ -140,7 +140,7 @@ const showResults = (data) => {
   const changeUnits = document.createElement('span');
   changeUnits.id = 'change-units';
   changeUnits.setAttribute('data-metric', true);
-  changeUnits.textContent = 'Imperial';
+  changeUnits.textContent = 'Imperial Units';
   changeUnits.addEventListener('click', toggle);
   form.appendChild(changeUnits);
 

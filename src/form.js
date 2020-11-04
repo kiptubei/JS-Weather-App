@@ -4,6 +4,7 @@ import { showLoading } from './display';
 const searchForm = document.createElement('form');
 searchForm.id = 'search-form';
 
+
 const locationLabel = document.createElement('label');
 locationLabel.htmlFor = 'location-input';
 locationLabel.textContent = 'Location';
