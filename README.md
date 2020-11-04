@@ -2,6 +2,29 @@
 Weather forecast site using the weather API.
 Search for a specific location and toggle displaying the data in Fahrenheit or Celsius.
 
+![screenshot](docs/results.png)
+
+## Built With
+
+- HTML, CSS and JavaScript
+- OpenWeatherMap API
+- Unsplash API
+
+## Live Demo
+
+
+## Getting Started
+
+- Clone this [repository](https://github.com/kiptubei/JS-Weather-App/tree/features).
+- Switch to the `features` branch.
+- Install all dependencies by running `npm install`.
+- Launch the project locally by running `npm run dev`.
+
+### Usage
+
+- Enter the name of the location in the search bar.
+- Click on the _metric_ button next to the search bar, that says `Imperial` (to switch to Imperial units) or `Metric` (to switch to metric units).
+
 ## Authors
 
 👤 **Mark James Kiptubei**
